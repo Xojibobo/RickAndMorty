@@ -1,0 +1,149 @@
+.label {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.inputs {
+
+    border-radius: 4px;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    width: 40%;
+    padding: 6px 12px;
+    margin-right: 10px;
+    margin-left: 30%;
+    background-color: #f8f9fa;
+}
+
+.search-button {
+    padding: 10px 12px;
+    background-color: #5197e0;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.main-div {
+    display: flex;
+}
+
+.filter {
+    width: 20%;
+
+}
+
+.resultFilter {
+    width: 40%;
+}
+
+
+
+.filter-button {
+    background-color: white;
+    padding: 10px 12px;
+    border: 1px solid #5197e0;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #5197e0;
+    margin-left: 5px;
+}
+
+.filtered-characters {
+
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+
+
+
+}
+
+
+.filtered-character {
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    width: 210px;
+    height: 380px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+
+}
+
+.about-characters {
+    margin: 5px;
+}
+
+.character-name {
+    font-weight: bold;
+}
+
+.location-description {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: -10px;
+}
+
+.location {
+    color: rgb(114, 114, 114);
+}
+
+.image {
+    width: 210px;
+    height: 200px;
+}
+
+.status {
+    text-align: center;
+    position: relative;
+    bottom: 195px;
+    left: 140px;
+    z-index: 1;
+    color: #f8f9fa;
+    width: 70px;
+
+}
+
+.filter {
+    text-align: center;
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 0.25em;
+}
+
+.pagination li a {
+    padding: 0.5em 1em;
+    border: 1px solid #ddd;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.pagination li a:hover {
+    background-color: #f1f1f1;
+}
+
+.pagination li.active a {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+}
+
+.get-info {
+    background-color: #8cb1d8;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+}

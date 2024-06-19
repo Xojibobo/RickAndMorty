@@ -1,0 +1,42 @@
+.navbar,
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+    align-items: center;
+
+}
+
+.navbar-li {
+
+    margin: 0 5px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #5cbbd8;
+
+    cursor: pointer;
+
+}
+
+.navbar-li:hover {
+    border-bottom: 1px solid #f12e2e;
+}
+
+.rick_morty {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.wiki {
+    color: #5cbbd8;
+}
+
+header {
+    background-color: #faf7f7;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}

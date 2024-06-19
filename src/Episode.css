@@ -1,0 +1,31 @@
+.filtered-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h1-span {
+    color: #5197e0;
+}
+
+.episode-label {
+
+    display: flex;
+}
+
+.filter-div {
+    width: 30%;
+}
+
+.episode-select {
+    padding: 5px;
+    width: 300px;
+    color: #5197e0;
+    border: 1px solid #5197e0;
+}
